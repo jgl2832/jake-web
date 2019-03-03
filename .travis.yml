@@ -4,6 +4,9 @@ node_js:
 cache:
   directories:
     - node_modules
+before_install:
+  # set up awscli packages
+  - pip install --user awscli
 script:
     - npm run build
     - npm test
