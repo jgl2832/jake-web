@@ -17,7 +17,7 @@ script:
     - npm test
 deploy:
   - provider: script
-    script: aws s3 sync build/ s3://$AWS_BUCKET_NAME
+    script: aws s3 sync build/ s3://$AWS_BUCKET_NAME --delete
     skip_cleanup: true
     on:
       branch: master
