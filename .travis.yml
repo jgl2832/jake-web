@@ -11,7 +11,7 @@ cache:
   directories:
     - node_modules
 before_install:
-  - pip3 install --user awscli
+  - pip3 install --upgrade --user awscli
 script:
     - npm run build
     - npm test
