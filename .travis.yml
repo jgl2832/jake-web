@@ -1,14 +1,17 @@
 language: node_js
+dist: trusty
+addons:
+  apt:
+    packages:
+      - "python3"
+      - "python3-pip"
 node_js:
   - 8
 cache:
   directories:
     - node_modules
 before_install:
-  # set up awscli packages
-  - pip install --upgrade pip
-  - pip install --user awscli
-  - export PATH=$PATH:$HOME/.local/bin
+  - pip3 install --user awscli
 script:
     - npm run build
     - npm test
