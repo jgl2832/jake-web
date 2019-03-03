@@ -19,32 +19,32 @@ class App extends Component {
           </p>
           <ul className="SocialLinks">
             <li>
-              <a href="mailto:jgl@jgl.nyc" target="_blank">
+              <a href="mailto:jgl@jgl.nyc" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="Icon" icon={faEnvelope} />
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/jgl2832" target="_blank">
+              <a href="https://www.facebook.com/jgl2832" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="Icon" icon={faFacebookF} />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/theDJ" target="_blank">
+              <a href="https://twitter.com/theDJ" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="Icon" icon={faTwitter} />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/profile/view?id=61732651" target="_blank">
+              <a href="https://www.linkedin.com/profile/view?id=61732651" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="Icon" icon={faLinkedin} />
               </a>
             </li>
             <li>
-              <a href="https://github.com/jgl2832" target="_blank">
+              <a href="https://github.com/jgl2832" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="Icon" icon={faGithub} />
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/jgl2832/" target="_blank">
+              <a href="https://instagram.com/jgl2832/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="Icon" icon={faInstagram} />
               </a>
             </li>
