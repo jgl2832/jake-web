@@ -24,18 +24,13 @@ class App extends Component {
               </a>
             </li>
             <li>
+              <a href="https://instagram.com/jgl2832/" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="Icon" icon={faInstagram} />
+              </a>
+            </li>
+            <li>
               <a href="https://www.facebook.com/jgl2832" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="Icon" icon={faFacebookF} />
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/theDJ" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon className="Icon" icon={faTwitter} />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/profile/view?id=61732651" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon className="Icon" icon={faLinkedin} />
               </a>
             </li>
             <li>
@@ -44,8 +39,13 @@ class App extends Component {
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/jgl2832/" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon className="Icon" icon={faInstagram} />
+              <a href="https://www.linkedin.com/profile/view?id=61732651" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="Icon" icon={faLinkedin} />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/theDJ" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon className="Icon" icon={faTwitter} />
               </a>
             </li>
           </ul>
