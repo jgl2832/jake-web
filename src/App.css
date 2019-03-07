@@ -25,6 +25,7 @@
 .SocialLinks {
   list-style: none;
   padding: 0;
+  margin-top: .5em;
 }
 
 .SocialLinks>li {
