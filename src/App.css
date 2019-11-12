@@ -22,6 +22,10 @@
   font-size: calc(4px + 2vmin);
 }
 
+.Talks {
+  font-size: calc(4px + 2vmin);
+}
+
 .SocialLinks {
   list-style: none;
   padding: 0;
