@@ -22,6 +22,10 @@
   font-size: calc(4px + 2vmin);
 }
 
+.Talks {
+  font-size: calc(4px + 2vmin);
+}
+
 .SocialLinks {
   list-style: none;
   padding: 0;
@@ -35,4 +39,18 @@
 
 .Icon {
   color: black;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
