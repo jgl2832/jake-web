@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
-          <p className="Talks">
+          <p className="Links">
             <Link to="/">Home</Link> | <Link to="/talks">Talks</Link>
           </p>
           <h1 className="Name">
