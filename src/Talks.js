@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Talks() {
+export default function Talks() {
   return (
     <span class="Talks">
       <label for="codemotion">
@@ -26,5 +26,3 @@ function Talks() {
     </span>
   );
 }
-
-export default Talks;
