@@ -16,7 +16,7 @@ function App() {
         <p className="Links">
           <Link to="/">Home</Link> | <Link to="/talks">Talks</Link>
         </p>
-        <header className="App-header">
+        <header className="Content">
           <h1 className="Name">
             Jake G Levine
           </h1>

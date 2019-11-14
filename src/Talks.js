@@ -1,5 +1,13 @@
 import React from 'react';
 
+function Video({ id, url }) {
+  return (
+    <div className="videoWrapper">
+      <iframe title={id} id={id} width="560" height="315" src={url} frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  );
+};
+
 export default function Talks() {
   return (
     <span className="Talks">
@@ -12,17 +20,13 @@ export default function Talks() {
         Sorting is as easy as 1,2,3 - but not as easy as a,b,c! (<a href="http://bangbangcon.com/2016/speakers.html#jake-levine" target="_blank" rel="noopener noreferrer">!!con 2016</a>)
       </label>
       <br />
-      <div className="videoWrapper">
-        <iframe title="bangbangcon" id="bangbangcon" width="560" height="315" src="https://www.youtube.com/embed/kmLHuKs0M10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <Video id="bangbangcon" url="https://www.youtube.com/embed/kmLHuKs0M10" />
       <br />
       <label for="devpost">
         All about phone interviews (Devpost)
       </label>
       <br />
-      <div className="videoWrapper">
-        <iframe title="devpost" id="devpost" width="560" height="315" src="https://www.youtube.com/embed/JnJpmuhupuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+      <Video id="devpost" url="https://www.youtube.com/embed/JnJpmuhupuQ" />
     </span>
   );
 }
