@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
 } from "react-router-dom";
 import './App.css';
 import Home from './Home';
@@ -15,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <header className="Content">
+        <div className="Content">
           <h1 className="Name">
             Jake G Levine
           </h1>
@@ -26,7 +25,7 @@ function App() {
               <Talks />
             </Route>
           </Switch>
-        </header>
+        </div>
       </div>
     </Router>
   );
