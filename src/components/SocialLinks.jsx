@@ -3,13 +3,12 @@ import { faFacebookF, faTwitter, faLinkedin, faGithub, faInstagram } from '@fort
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function SocialLink({ link, icon }) {
-  return (
-    <a href={link} target="_blank" rel="noopener noreferrer">
-      <FontAwesomeIcon className="Icon" icon={icon} />
-    </a>
-  );
-};
+import ExternalLink from './ExternalLink';
+
+const SocialLink = ({ link, icon }) =>
+  <ExternalLink link={link}>
+    <FontAwesomeIcon className="Icon" icon={icon} />
+  </ExternalLink>
 
 const linkList = [
   SocialLink({ link: "mailto:jgl@jgl.nyc", icon: faEnvelope }),

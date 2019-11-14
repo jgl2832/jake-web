@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SocialLinks from './components/SocialLinks.jsx';
+import SocialLinks from './components/SocialLinks';
 
 export default function Home() {
   return (

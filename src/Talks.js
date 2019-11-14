@@ -1,23 +1,37 @@
 import React from 'react';
+import ExternalLink from './components/ExternalLink';
 
-function Video({ id, url }) {
-  return (
-    <div className="videoWrapper">
-      <iframe title={id} id={id} width="560" height="315" src={url} frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  );
-};
+const Video = ({ id, url }) =>
+  <div className="videoWrapper">
+    <iframe
+      title={id}
+      id={id}
+      width="560" height="315"
+      src={url}
+      frameborder="0"
+      allow="autoplay; encrypted-media; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+const lazyEngLink = <ExternalLink link="https://events.codemotion.com/conferences/berlin/2019/speaker/6025/">
+  Codemotion Berlin 2019
+</ExternalLink>
+
+const bangBangLink = <ExternalLink link="http://bangbangcon.com/2016/speakers.html#jake-levine">
+  !!con 2016
+</ExternalLink>
 
 export default function Talks() {
   return (
     <span className="Talks">
       <label for="codemotion">
-        Lazy Engineering (<a href="https://events.codemotion.com/conferences/berlin/2019/speaker/6025/" target="_blank" rel="noopener noreferrer">Codemotion Berlin 2019</a>)
+        Lazy Engineering ({lazyEngLink}))
       </label>
       <div id="codemotion">Coming soon!</div>
       <br />
       <label for="bangbangcon">
-        Sorting is as easy as 1,2,3 - but not as easy as a,b,c! (<a href="http://bangbangcon.com/2016/speakers.html#jake-levine" target="_blank" rel="noopener noreferrer">!!con 2016</a>)
+        Sorting is as easy as 1,2,3 - but not as easy as a,b,c! ({bangBangLink})
       </label>
       <br />
       <Video id="bangbangcon" url="https://www.youtube.com/embed/kmLHuKs0M10" />
