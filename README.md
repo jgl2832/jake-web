@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/jgl2832/jake-web.svg?branch=master)](https://travis-ci.org/jgl2832/jake-web)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
