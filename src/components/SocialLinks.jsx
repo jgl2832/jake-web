@@ -11,7 +11,7 @@ const SocialLink = ({ link, icon }) =>
   </ExternalLink>
 
 const linkList = [
-  SocialLink({ link: "mailto:jgl@jgl.nyc", icon: faEnvelope }),
+  SocialLink({ link: "mailto:jgl2832@gmail.com", icon: faEnvelope }),
   SocialLink({ link: "https://instagram.com/jgl2832/", icon: faInstagram }),
   SocialLink({ link: "https://www.facebook.com/jgl2832", icon: faFacebookF }),
   SocialLink({ link: "https://github.com/jgl2832", icon: faGithub }),
